@@ -14,15 +14,15 @@ int main() {
   std::cout << ("Введите символы: ") << std::endl;
   std::cin >> arr3;
   if (strlen(arr) <= 3) {
-    printf("\nДлина массива не более 3 символов.\n");
+    printf("\nДлина строки не более 3 символов.\n");
     printf(arr);
   };
   if (strlen(arr2) <= 3) {
-    printf("\nДлина массива не более 3 символов.\n");
+    printf("\nДлина строки не более 3 символов.\n");
     printf(arr2);
   }
   if (strlen(arr3) <= 3) {
-    printf("\nДлина массива не более 3 символов.\n");
+    printf("\nДлина строки не более 3 символов.\n");
     printf(arr3);
   }
   return 0;
